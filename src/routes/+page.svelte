@@ -6,6 +6,8 @@
     states: {
       start: {
         after: {
+          // If this is uncommented, the subscription will work.
+          // It is only the initial state of the machine that is not working.
           // 500: {
           // }
         }
